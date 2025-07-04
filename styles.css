@@ -1,0 +1,111 @@
+body {
+  background-color: rgb(114, 114, 114);
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  height: 600px;
+  width: 550px;
+  padding: 30px;
+}
+
+.leftContainer {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.rightContainer {
+  border-radius: 0px 20px 20px 0px;
+}
+
+.playersBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  height: 95vh;
+}
+
+.playerInfo {
+  margin-top: 40px;
+}
+
+.playerName {
+  margin: 10px;
+  font-size: 40px;
+}
+
+.totalScore {
+  text-align: center;
+  font-size: 60px;
+  margin: 10px;
+  color: rgb(205, 50, 97);
+}
+
+.gameInfo {
+  margin-bottom: 70px;
+  height: 120px;
+  width: 190px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.current {
+  text-align: center;
+  margin: 15px 10px;
+}
+
+.currentScore {
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+}
+
+.middleContainer {
+  position: relative;
+  top: -600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.middleBtn {
+  background-color: rgba(32, 32, 32, 0.8);
+  color: white;
+  height: 45px;
+  width: 160px;
+  border: none;
+  border-radius: 35px;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.rollDiceBtn {
+  margin-bottom: 20px;
+}
+
+.playContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.diceImg {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+button:hover {
+  cursor: pointer;
+}
